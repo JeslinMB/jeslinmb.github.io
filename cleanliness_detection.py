@@ -106,7 +106,6 @@ import json
 import time
 
 def send_telegram_message(message):
-    """Sends message via Telegram"""
     url = "https://api.telegram.org/" + telegram_bot_id + "/sendMessage"
     data = {
         "chat_id": telegram_chat_id,
