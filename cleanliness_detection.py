@@ -8,10 +8,10 @@ Original file is located at
 """
 
 #required configurations
-API_KEY = "4c7cbde2-eeb6-4dbf-b73b-7f1dfc38f717"
-DEVICE_ID = "BOLT5914166"
-telegram_chat_id = "@temperature_alert_devp123"
-telegram_bot_id = "bot6477955203:AAH_sse7jZGXGsW5SqG6GcbFidFftlH3lkc"
+API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXX"
+DEVICE_ID = "BOLTXXXXXXX"
+telegram_chat_id = "@XXXXXXX"
+telegram_bot_id = "botXXXXXXXXXX"
 
 !pip install boltiot
 from boltiot import Sms, Bolt
