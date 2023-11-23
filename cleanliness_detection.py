@@ -54,8 +54,6 @@ for category in CATEGORIES:
   path = os.path.join(DATADIR,category)
   for img in os.listdir(path):
     img_array = imread(os.path.join(path,img))
-    #print(img_array.shape)
-    #plt.imshow(img_array)
     img_resized = resize(img_array,(150,150,3))
     flat_data.append(img_resized.flatten())
     images.append(img_resized)
