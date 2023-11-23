@@ -63,8 +63,6 @@ flat_data=np.array(flat_data)
 target=np.array(target)
 images=np.array(images)
 
-len(flat_data[0])
-
 target
 
 unique,count=np.unique(target,return_counts=True)
