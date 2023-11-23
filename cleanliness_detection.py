@@ -21,7 +21,7 @@ mybolt=Bolt(API_KEY,DEVICE_ID)
 # Commented out IPython magic to ensure Python compatibility.
 #displaying the timetaken for each cell to execute
 !pip install ipython-autotime
-# %load_ext autotime
+%load_ext autotime
 
 !pip install bing-image-downloader   #helps to collect your dataset from bing
 
